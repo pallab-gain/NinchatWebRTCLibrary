@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ninchat",
+    "module": "libwebrtc",
+    "version": "106.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libwebrtc-106.0.2.aar",
+          "url": "libwebrtc-106.0.2.aar",
+          "size": 3999049,
+          "sha512": "64ce3e6703db0aca6473b7ecd490e68492c679f65ae66b3800a6888a1e42607b6e85707b45b343db13a4e51bb22432f80be580f89a4c9bbc4d2f13cfca0f26fb",
+          "sha256": "d80c7b8b60275a0f2247f1933b2de6d8a99c04c4916d1fe555cfc9b472d45574",
+          "sha1": "d94c36734fb3748fa6d642a6ec5621acbd15985c",
+          "md5": "f1903719dfeb4e9456e867be354ac491"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libwebrtc-106.0.2.aar",
+          "url": "libwebrtc-106.0.2.aar",
+          "size": 3999049,
+          "sha512": "64ce3e6703db0aca6473b7ecd490e68492c679f65ae66b3800a6888a1e42607b6e85707b45b343db13a4e51bb22432f80be580f89a4c9bbc4d2f13cfca0f26fb",
+          "sha256": "d80c7b8b60275a0f2247f1933b2de6d8a99c04c4916d1fe555cfc9b472d45574",
+          "sha1": "d94c36734fb3748fa6d642a6ec5621acbd15985c",
+          "md5": "f1903719dfeb4e9456e867be354ac491"
+        }
+      ]
+    }
+  ]
+}

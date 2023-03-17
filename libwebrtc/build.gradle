@@ -28,6 +28,7 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    api fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 apply plugin: 'maven-publish'
@@ -44,7 +45,7 @@ publishing {
         maven(MavenPublication) {
             groupId "com.ninchat"
             artifactId "libwebrtc"
-            version "106.0.1"
+            version "106.0.2"
 
             afterEvaluate {
                 from components.release
