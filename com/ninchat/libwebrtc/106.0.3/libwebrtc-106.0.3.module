@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ninchat",
+    "module": "libwebrtc",
+    "version": "106.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libwebrtc-106.0.3.aar",
+          "url": "libwebrtc-106.0.3.aar",
+          "size": 15342600,
+          "sha512": "c73240f8e029a7135a5109169793093a3a32e7e136738f2f203fa6cb02e8e3586ca8543a71c80d23f00372b9726778c6a25fe9812cebe13956a43820ca2f357d",
+          "sha256": "c1164cb172b46856c71bbc08a14968feb2d5a6f6d3ad10cf512c0a441ad387b0",
+          "sha1": "c693006398001205af74c4d497f615267b3103f6",
+          "md5": "a7eca23f0e58caaf3e571d341bb5b15e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libwebrtc-106.0.3.aar",
+          "url": "libwebrtc-106.0.3.aar",
+          "size": 15342600,
+          "sha512": "c73240f8e029a7135a5109169793093a3a32e7e136738f2f203fa6cb02e8e3586ca8543a71c80d23f00372b9726778c6a25fe9812cebe13956a43820ca2f357d",
+          "sha256": "c1164cb172b46856c71bbc08a14968feb2d5a6f6d3ad10cf512c0a441ad387b0",
+          "sha1": "c693006398001205af74c4d497f615267b3103f6",
+          "md5": "a7eca23f0e58caaf3e571d341bb5b15e"
+        }
+      ]
+    }
+  ]
+}
