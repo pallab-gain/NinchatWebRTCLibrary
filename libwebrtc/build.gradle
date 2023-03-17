@@ -44,7 +44,7 @@ publishing {
         maven(MavenPublication) {
             groupId "com.ninchat"
             artifactId "libwebrtc"
-            version "106.0.0"
+            version "106.0.1"
 
             afterEvaluate {
                 from components.release
